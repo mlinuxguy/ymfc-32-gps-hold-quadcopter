@@ -1,12 +1,6 @@
-This package was forked from the YMFC-32 project created by Joop Brokking.
-He published this project on youtube and his website where you can refer to the original project.
-
-I forked it so I could add FRSKY SBUS and 915Mhz LORA (telemetry) support.
-
-=========================
 Thank you for downloading the YMFC-32 autonomous software package. 
 
-This is version: 1.0 September 20, 2018
+This is version: 2.0 November 10, 2018
 
 Package content:
 YMFC-32_autonomous_schematic.pdf
@@ -22,6 +16,18 @@ http://www.brokking.net/YMFC-32_auto_qanda.html
 https://www.youtube.com/playlist?list=PL0K4VDicBzshwCpUHzIB6hOLQVkDFHbxC
 
 Revision update:
+=====================================================================================================================================================
+Version 2.0 - November 10 , 2018
+Added the following functions:
+- GPS hold + position control
+- Return To Home (RTH)
+- Fail safe & RTH
+- Auto land and take off
+The software is tested with Arduino IDE version 1.8.2
+The STM23 for Arduino add-on that I used can be downloaded here: http://www.brokking.net/YMFC-32_auto_downloads.html
+=====================================================================================================================================================
+
+
 =====================================================================================================================================================
 Version 1.0 - September 20, 2018
 First release
